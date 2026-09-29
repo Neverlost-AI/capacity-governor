@@ -1,0 +1,17 @@
+{
+  "name": "@capacity-governor/application",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@capacity-governor/contracts": "workspace:*",
+    "@capacity-governor/forecast-engine": "workspace:*",
+    "@capacity-governor/policy-engine": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
